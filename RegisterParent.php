@@ -1,8 +1,8 @@
 <?php
-$email = $_POST['email'];
 $name = $_POST['name'];
-$phone = $_POST['phone'];
+$email = $_POST['email'];
 $password = $_POST['password'];
+$phone = $_POST['phone'];
 $response = array();
 
 // validate email
