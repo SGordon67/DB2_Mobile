@@ -1,4 +1,3 @@
-
 <?php
 $name = $_POST['name'];
 // validate email
