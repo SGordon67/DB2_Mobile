@@ -13,8 +13,8 @@ if ($email === false) {
     $response["success"] = "false";
     echo json_encode($response);
 } else if(!preg_match('/^[0-9]{10}+$/', $phone)) {
-    //$response["success"] = "false";
-    //echo json_encode($response);
+    $response["success"] = "false";
+    echo json_encode($response);
 } else{
     $mysqli = new mysqli('localhost', 'root', '', 'DB2');
     $query = "INSERT INTO users(email, password, name, phone) VALUES ('$email','$password','$name','$phone')";
