@@ -2,7 +2,6 @@
 // setup the database for query, grab variables from post
 $mysqli = new mysqli('localhost', 'root', '', 'DB2');
 $email = $_POST['email'];
-$password = $_POST['password'];
 $newPhone = $_POST['newPhone'];
 $user = $_POST['user'];
 

@@ -42,7 +42,11 @@ if ($email === false) {
     while ($row = $result3->fetch_assoc()) {
         $parentID = $row['id'];
     }
-
+    $rowcount=mysqli_num_rows($result3); 
+    if($rowcount == 0){ 
+        $response["success"] = "false";
+        echo json_encode($response);
+    }
     // insert into students table
     $query4 = "INSERT INTO students(student_id, grade, parent_id) VALUES ($studentID, '$grade', $parentID)";
     $result4 = $mysqli->query($query4);
