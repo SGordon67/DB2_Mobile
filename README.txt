@@ -13,6 +13,6 @@ to get set up:
   - Find and select the BASE/App/Db2_Phase3 directory and click OK to open the project
   - In the file res/values/strings.xml in Android Studio, you must change "BASE_SERVER_URL" to the directory containing the PHP and SQL files
     ~ You must get the ip address for your server. We found ours in the netstat section of the xampp controller.
-    ~ Should be formatted something like "http://[IP ADDRESS]/dashboard/PHPandSQL/"
+    ~ Should be formatted something like "http://999.999.9.9:80/dashboard/DB2_phase3/PHPandSQL/" with your ip instead
   - Setup a device simulator (for development we used pixel 2) to run the app in Android Studio.
   - Run the app using the Run app button near the top of the Android Studio window.
