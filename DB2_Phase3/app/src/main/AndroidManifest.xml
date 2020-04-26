@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.db2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".studyMaterials"></activity>
+        <activity android:name=".MeetingInfo" />
+        <activity android:name=".MeetingJoinLeave" />
+        <activity android:name=".MeetingView" />
+        <activity android:name=".EditPasswordParentStudent" />
+        <activity android:name=".EditPhoneParentStudent" />
+        <activity android:name=".EditEmailParentStudent" />
+        <activity android:name=".ParentEditStudent" />
+        <activity android:name=".EditEmailAdmin" />
+        <activity android:name=".EditPhoneAdmin" />
+        <activity android:name=".EditPasswordAdmin" />
+        <activity android:name=".EditPasswordParent" />
+        <activity android:name=".EditPhoneParent" />
+        <activity android:name=".EditPhonePasswordParent" />
+        <activity android:name=".EditPasswordStudent" />
+        <activity android:name=".EditPhoneStudent" />
+        <activity android:name=".EmailEditAdmin" />
+        <activity android:name=".EditEmailParent" />
+        <activity android:name=".EditEmailStudent" />
+        <activity android:name=".SignInAdmin" />
+        <activity android:name=".SignInParent" />
+        <activity android:name=".SignInStudent" />
+        <activity android:name=".PageAdmin" />
+        <activity android:name=".PageParent" />
+        <activity android:name=".PageStudent" />
+        <activity android:name=".RegisterStudentAct" />
+        <activity android:name=".RegisterParentAct" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

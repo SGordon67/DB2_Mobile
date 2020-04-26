@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DB2</string>
+    <string name="url">http://192.168.1.5:80/dashboard/DB2_phase3/</string>
+
+    <string-array name="grade_spinner">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>
