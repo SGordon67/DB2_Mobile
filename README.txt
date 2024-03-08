@@ -1,9 +1,9 @@
-Phase 3 README
+Same project as DB2, reworked for mobile app.
 
 Scott Gordon
 Joe Gelsomini
 
-to get set up:
+To get set up:
   -Copy source code into folder with given directory structure.
   -Have your xampp server running
   -Copy PHPandSQL folder ito the proper directory for xampp: /xampp/htdocs/dashboard 
