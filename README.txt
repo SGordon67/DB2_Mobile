@@ -4,7 +4,7 @@ Scott Gordon
 Joe Gelsomini
 
 To get set up:
-  -Can follow a lot of the DB2 setup to get the databse and information in.
+  -Can follow a lot of the DB2 setup to get the database and information in.
   -This is more to provide guidence on the mobile portion of the setup.
 
   -Copy source code into folder with given directory structure.
